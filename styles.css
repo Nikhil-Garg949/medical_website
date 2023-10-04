@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+#header{
+    /* background-color: rgb(10, 239, 67); */
+    background-color: rgb(13, 247, 169);
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#header .logo{
+    display: flex;
+}
+#header .logo img{
+    margin:5px;
+    width:50px;
+    height:50px;
+}
+.search{
+    display: flex;
+}
+.search input[type="text"] {
+    padding: 2px 10px;;
+    width: 600px;
+    margin:5px 0px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+.search input[type="submit"] {
+    background-color: #0056b3; 
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius:0px 5px 5px 0px;
+    cursor: pointer;
+    margin: 5px 0px;
+}
+#header .navbar{
+    color:black;
+    font-weight: bolder;
+    font-size: large;
+}
+#header .navbar nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+#header .navbar nav ul li{
+    margin:20px 20px;
+    color:black;
+    font-weight: bolder;
+    font-size: large;
+    list-style: none;
+}
+#main #home{
+   display: flex;
+   justify-content:space-around;
+   background-color: aquamarine;
+   min-height: 85vh;
+   background-image: url("assets/home.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   height:95vh;
+}
+#main #home .first{
+    margin:auto;
+}
+#main #home .first h1{
+    font-size:xx-large;
+}
+#main #home .first .button{
+    background-color: #0056b3; 
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+    margin-left:40%;
+}
+
+#main #about h2,#main #products h2,#main #contact h2{
+    background-color: rgb(13, 247, 169);
+    height:30px;
+    width:100%;
+    text-align: center;
+    font-size: larger;
+    padding:5px;
+}
+#main #about .about{
+    background-color: aquamarine;
+    display:flex;
+}
+#main #about .about .image img{
+    margin:20px 20px;
+    width:300px;
+    height:300px;
+}
+#main #about .about .details h3{
+    margin-top: 20px;
+}
+#main #about .about .details p{
+    font-size: large;
+    padding:10px 10px 20px 10px;
+}
+#main #products .products{
+    background-color: aquamarine;
+    display:flex; 
+    justify-content: space-between;
+}
+#main #products .products .details{
+    margin:5px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#main #products .products .details .prod1,#main #products .products .details .prod2,#main #products .products .details .prod3{
+    /* background-color: #fff; */
+    background-color: aquamarine;
+    border:solid 2px black;
+    width:400px;
+    margin:10px;
+}
+#main #products .products .details .prod1 img,#main #products .products .details .prod2 img,#main #products .products .details .prod3 img{
+    width: 400px;
+    height:300px;
+}
+#main #products .products .details .prod1 .button,#main #products .products .details .prod2 .button,#main #products .products .details .prod3 .button{
+    background-color: #0056b3; 
+    color: white;
+    padding: 5px 35px;
+    border: none;
+    border-radius:0px 5px 5px 0px;
+    cursor: pointer;
+    margin: 5px 120px;
+}
+
+#contact {
+    background-color :aquamarine; 
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 24px;
+    color: #333; 
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+#main #contact .contacts .details {
+    background-color:aquamarine; 
+    padding: 20px;
+    border-radius: 10px;
+    border-color:rgb(12, 233, 159) ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    /* margin: 5px 0; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0056b3; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border: 2px solid #0056b3;
+}
+
+
+
+footer{
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
